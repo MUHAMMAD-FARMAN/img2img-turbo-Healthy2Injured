@@ -3,6 +3,16 @@
 [**Paper**](https://arxiv.org/abs/2403.12036) | [**Sketch2Image Demo**](https://huggingface.co/spaces/gparmar/img2img-turbo-sketch) 
 #### **Quick start:** [**Running Locally**](#getting-started) | [**Gradio (locally hosted)**](#gradio-demo) | [**Training**](#training-with-your-own-data)
 
+# Overview
+
+This project utilizes CycleGAN to perform image-to-image translation between two domains:
+
+Domain A: Injured Faces
+
+Domain B: Healthy Faces
+
+The model is trained to convert images from an injured face to a healthy face and vice versa, without requiring paired data. This approach enables the restoration of injured facial features while preserving identity and realistic textures.
+
 ### Cat Sketching
 <p align="left" >
 <img src="https://raw.githubusercontent.com/GaParmar/img2img-turbo/main/assets/cat_2x.gif" width="800" />
